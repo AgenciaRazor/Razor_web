@@ -1,0 +1,32 @@
+<html>
+    
+        <header>
+    
+        </header>
+    
+        <body>
+            <h1>Cadastrar Salão</h1>
+
+
+            <% if(validacao.length > 0){ %>
+                <div>
+                    <strong>Atenção !</strong>
+                    <ul>
+                        <% for(var i = 0; i < validacao.length; i++){ %>
+                            <li><%=validacao[i].msg%></li>
+                        <% } %>
+                    </ul>
+                </div>
+
+            <% } %>
+
+
+            <form method="post" action="/cadastrar">
+
+                <input name="nome" placeholder="Nome" value="<%=dadosForm.nome%>" />
+                <input name="sobrenome" placeholder="Sobrenome" value="<%=dadosForm.sobrenome%>" />
+                <input type="submit" />
+            </form>
+        </body>
+    
+    </html>

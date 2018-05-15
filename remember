@@ -1,0 +1,19 @@
+# Comandos GIT
+
+- git add -A   // Adiciona todas altrações ao commit
+- git commit -m "Mensagem"  // Mensagem do commit
+- git push -u origin Master // Envia o commit a origem Master
+
+# Comandos Mongo 
+
+mongod.exe // Executor do bando
+mongo.exe // Shell do banco
+
+- show dbs // Exibe os bancos de dados
+- use // Alternar banco de dados ou prepara estrutura para criação do banco
+- db.alunos.save({Nome:"Jorge"}) // Insere / cria banco de dados
+- db.dropDatabase() // Exclui banco de dados
+
+# Comandos NPM
+
+- --no-option    Só sei que permite instalar kk
